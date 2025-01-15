@@ -34,9 +34,10 @@ set_property  -dict {PACKAGE_PIN  U15   IOSTANDARD LVCMOS33} [get_ports spdif]
 # JC PMOD - Bank 13
 
 set_property -dict {PACKAGE_PIN AA4 IOSTANDARD LVCMOS33} [get_ports {spi0_csn_0_o}]; # "JC2_N"
-set_property -dict {PACKAGE_PIN Y4  IOSTANDARD LVCMOS33} [get_ports {spi0_sdo_o]; #JC2_P
+set_property -dict {PACKAGE_PIN Y4  IOSTANDARD LVCMOS33} [get_ports {spi0_sdo_o}]; #JC2_P
 set_property -dict {PACKAGE_PIN T6  IOSTANDARD LVCMOS33} [get_ports {spi0_clk_o}];  # "JC3_N"
 set_property -dict {PACKAGE_PIN T4  IOSTANDARD LVCMOS33} [get_ports {spi0_sdi_i}];	# "JC4_P"
+
 # i2s
 
 set_property  -dict {PACKAGE_PIN  AB2   IOSTANDARD LVCMOS33} [get_ports i2s_mclk]
