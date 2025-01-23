@@ -105,7 +105,7 @@ ad_ip_parameter axi_ad463x_dma CONFIG.AXI_SLICE_SRC 1
 ad_ip_parameter axi_ad463x_dma CONFIG.DMA_DATA_WIDTH_SRC 64
 ad_ip_parameter axi_ad463x_dma CONFIG.DMA_DATA_WIDTH_DEST 64
 #In case not working remove comment
-#ad_ip_parameter axi_ad463x_dma CONFIG.DMA_LENGTH_WIDTH 32
+ad_ip_parameter axi_ad463x_dma CONFIG.DMA_LENGTH_WIDTH 32
 
 # Trigger for SPI offload
 if {$CAPTURE_ZONE == 1} {

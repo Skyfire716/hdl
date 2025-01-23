@@ -4,7 +4,8 @@
 ## Auto-generated, do not modify!
 ####################################################################################
 
-PROJECT_NAME := ad4630_fmc_zed
+#PROJECT_NAME := ad4630_fmc_zed
+PROJECT_NAME := beamstellar
 
 M_DEPS += system_constr_8sdi.xdc
 M_DEPS += system_constr_4sdi.xdc
